@@ -2,33 +2,28 @@ import Container from "@/components/ui/container";
 import Button from "@/components/ui/button";
 
 import styles from "./styles.module.css";
+import { HERO } from "@/constants/hero";
 
 export default function Hero() {
   return (
     <section className={styles.hero}>
       <Container>
         <div className={styles.hero_content}>
-          <p className={styles.hero_tag}>Software Engineer</p>
+          <p className={styles.hero_tag}>{HERO.tag}</p>
 
           <h1 className={styles.hero_title}>
-            {"Hi, I'm"}
-            <span> Sahil Mazumder</span>
+            {HERO.title}
+            <span>{HERO.name}</span>
           </h1>
 
-          <h2 className={styles.hero_subtitle}>
-            I build performant web applications with a focus on maintainability,
-            scalability, and user experience.
-          </h2>
+          <h2 className={styles.hero_subtitle}>{HERO.subtitle}</h2>
 
-          <p className={styles.hero_description}>
-            I enjoy building scalable web applications with a strong focus on
-            performance, maintainability, and thoughtful user experiences.
-          </p>
+          <p className={styles.hero_description}>{HERO.description}</p>
 
           <div className={styles.hero_actions}>
-            <Button>Download Resume</Button>
+            <Button>{HERO.primary_cta.label}</Button>
 
-            <Button variant="secondary">{`Let's Connect`}</Button>
+            <Button variant="secondary">{HERO.secondary_cta.label}</Button>
           </div>
         </div>
       </Container>

@@ -3,29 +3,7 @@ import Link from "next/link";
 import Container from "@/components/ui/container";
 
 import styles from "./styles.module.css";
-
-const NAV_LINKS = [
-  {
-    label: "About",
-    href: "#about",
-  },
-  {
-    label: "Skills",
-    href: "#skills",
-  },
-  {
-    label: "Experience",
-    href: "#experience",
-  },
-  {
-    label: "Highlights",
-    href: "#highlights",
-  },
-  {
-    label: "Contact",
-    href: "#contact",
-  },
-];
+import { NAV_LINKS } from "@/constants/navigations";
 
 export default function Navbar() {
   return (

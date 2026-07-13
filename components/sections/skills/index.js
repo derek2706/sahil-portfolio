@@ -1,7 +1,7 @@
 import Container from "@/components/ui/container";
 import Section from "@/components/ui/section";
 import SectionHeading from "@/components/ui/section_heading";
-import SkillCard from "@/components/ui/skill_card";
+import SkillCategory from "@/components/ui/skill_category";
 
 import { SKILL_GROUPS } from "@/constants/skills";
 
@@ -13,13 +13,13 @@ export default function Skills() {
       <Container>
         <SectionHeading
           overline="Skills"
-          title="Technologies I work with"
-          description="Over the past four years, I've worked across the frontend and backend to build scalable web applications."
+          title="Technologies I use to build modern web applications."
+          description="Over the last four years, I've worked across the frontend and backend, building scalable and maintainable products."
         />
 
         <div className={styles.grid}>
           {SKILL_GROUPS.map((group) => (
-            <SkillCard
+            <SkillCategory
               key={group.title}
               title={group.title}
               description={group.description}

@@ -1,4 +1,4 @@
-.card {
+.category {
   height: 100%;
 
   padding: 2rem;
@@ -9,22 +9,20 @@
   background-color: var(--surface-color);
 
   transition:
-    border-color var(--transition-duration),
-    transform var(--transition-duration);
+    background-color var(--transition-duration),
+    border-color var(--transition-duration);
 }
 
-.card:hover {
-  border-color: var(--accent-color);
+.category:hover {
   background-color: var(--surface-hover-color);
-  transform: translateY(-4px);
+
+  border-color: var(--accent-color);
 }
 
 .title {
   margin-bottom: 0.75rem;
 
   font-size: 1.4rem;
-
-  font-weight: 600;
 }
 
 .description {

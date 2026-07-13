@@ -2,12 +2,12 @@ import Badge from "@/components/ui/badge";
 
 import styles from "./styles.module.css";
 
-export default function SkillCard({ title, description, skills }) {
+export default function SkillCategory({ title, description, skills }) {
   return (
-    <article className={styles.card}>
-      <h3>{title}</h3>
+    <article className={styles.category}>
+      <h3 className={styles.title}>{title}</h3>
 
-      <p>{description}</p>
+      <p className={styles.description}>{description}</p>
 
       <div className={styles.skills}>
         {skills.map((skill) => (
