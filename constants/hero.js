@@ -13,7 +13,7 @@ export const HERO = {
 
   primary_cta: {
     label: "Download Resume",
-    href: "/resume.pdf",
+    href: "/assets/resume.pdf",
   },
 
   secondary_cta: {

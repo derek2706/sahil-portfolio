@@ -21,9 +21,13 @@ export default function Hero() {
           <p className={styles.hero_description}>{HERO.description}</p>
 
           <div className={styles.hero_actions}>
-            <Button>{HERO.primary_cta.label}</Button>
+            <Button href={HERO.primary_cta.href} download>
+              {HERO.primary_cta.label}
+            </Button>
 
-            <Button variant="secondary">{HERO.secondary_cta.label}</Button>
+            <Button variant="secondary" href={HERO.secondary_cta.href}>
+              {HERO.secondary_cta.label}
+            </Button>
           </div>
         </div>
       </Container>

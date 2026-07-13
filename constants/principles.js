@@ -29,10 +29,10 @@ export const PRINCIPLES = {
     },
 
     {
-      title: "Continuous Learning",
+      title: "User-Centric Engineering",
 
       description:
-        "Software evolves quickly. I enjoy learning new technologies, refining engineering practices and continuously improving my craft.",
+        "Great software isn't just technically correct—it should be intuitive, accessible and genuinely enjoyable to use.",
     },
   ],
 };

@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/navbar";
+import Contact from "@/components/sections/contact";
 import Experience from "@/components/sections/experience";
 import Hero from "@/components/sections/hero";
 import Journey from "@/components/sections/journey";
@@ -20,6 +21,8 @@ export default function Home() {
         <Experience />
 
         <Principles />
+
+        <Contact />
       </main>
     </>
   );

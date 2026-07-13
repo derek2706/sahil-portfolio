@@ -1,18 +1,23 @@
 import styles from "./styles.module.css";
 
 export default function Button({
+  href,
   children,
   variant = "primary",
-  type = "button",
   ...props
 }) {
-  const class_name = `
-        ${styles.button}
-        ${styles[variant]}
-    `;
+  const className = `${styles.button} ${styles[variant]}`;
+
+  if (href) {
+    return (
+      <a href={href} className={className} {...props}>
+        {children}
+      </a>
+    );
+  }
 
   return (
-    <button type={type} className={class_name} {...props}>
+    <button type="button" className={className} {...props}>
       {children}
     </button>
   );

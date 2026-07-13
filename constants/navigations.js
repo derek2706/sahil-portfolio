@@ -12,7 +12,7 @@ export const NAV_LINKS = [
     href: "#experience",
   },
   {
-    label: "Highlights",
+    label: "Principles",
     href: "#principles",
   },
   {
