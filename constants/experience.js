@@ -10,7 +10,7 @@ export const EXPERIENCE = {
     {
       company: "Glamzy (formerly BuyEazzy)",
 
-      role: "Software Development Engineer",
+      role: "Software Development Engineer 2",
 
       duration: "Apr 2024 — Present",
 

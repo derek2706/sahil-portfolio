@@ -13,7 +13,7 @@ export const NAV_LINKS = [
   },
   {
     label: "Highlights",
-    href: "#highlights",
+    href: "#principles",
   },
   {
     label: "Contact",

@@ -2,6 +2,7 @@ import Navbar from "@/components/layout/navbar";
 import Experience from "@/components/sections/experience";
 import Hero from "@/components/sections/hero";
 import Journey from "@/components/sections/journey";
+import Principles from "@/components/sections/principles";
 import Skills from "@/components/sections/skills";
 
 export default function Home() {
@@ -11,9 +12,14 @@ export default function Home() {
 
       <main>
         <Hero />
+
         <Journey />
+
         <Skills />
+
         <Experience />
+
+        <Principles />
       </main>
     </>
   );
