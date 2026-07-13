@@ -1,11 +1,14 @@
-import Container from "./components/common/Container";
+import Navbar from "@/components/layout/navbar";
+import Hero from "@/components/sections/hero";
 
 export default function Home() {
   return (
-    <main>
-      <Container>
-        <h1>Hello Sahil 👋</h1>
-      </Container>
-    </main>
+    <>
+      <Navbar />
+
+      <main>
+        <Hero />
+      </main>
+    </>
   );
 }

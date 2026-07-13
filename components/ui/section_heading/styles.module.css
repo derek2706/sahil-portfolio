@@ -1,0 +1,25 @@
+.section_heading {
+  max-width: 720px;
+  margin-bottom: 4rem;
+}
+
+.overline {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: var(--secondary-text-color);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}

@@ -1,21 +1,39 @@
 :root {
-  /* Colors */
-  --background-color: #080808;
-  --surface-color: #121212;
-  --primary-color: #ffffff;
-  --secondary-color: #9ca3af;
-  --accent-color: #4f46e5;
-  --border-color: #242424;
+  /* COLORS */
 
-  /* Layout */
+  --background-color: #09090b;
+
+  --surface-color: #18181b;
+
+  --surface-hover-color: #27272a;
+
+  --primary-text-color: #fafafa;
+
+  --secondary-text-color: #a1a1aa;
+
+  --accent-color: #3b82f6;
+
+  --border-color: #27272a;
+
+  /* LAYOUT */
+
   --max-width: 1200px;
-  --section-spacing: 120px;
 
-  /* Radius */
-  --border-radius: 12px;
+  --section-padding: 120px;
 
-  /* Transition */
-  --transition: 250ms ease;
+  --container-padding: 24px;
+
+  /* BORDER */
+
+  --border-radius-small: 8px;
+
+  --border-radius-medium: 12px;
+
+  --border-radius-large: 20px;
+
+  /* TRANSITION */
+
+  --transition-duration: 0.25s;
 }
 
 *,
@@ -32,7 +50,7 @@ html {
 
 body {
   background: var(--background-color);
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   overflow-x: hidden;

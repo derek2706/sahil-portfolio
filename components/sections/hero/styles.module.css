@@ -1,0 +1,50 @@
+.hero {
+  min-height: 85vh;
+
+  display: flex;
+  align-items: center;
+
+  padding: 6rem 0;
+}
+
+.hero_content {
+  max-width: 850px;
+}
+
+.hero_tag {
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero_title {
+  font-size: clamp(4rem, 8vw, 6rem);
+  line-height: 1;
+  letter-spacing: -3px;
+  margin-bottom: 1.5rem;
+}
+
+.hero_title span {
+  color: var(--accent-color);
+}
+
+.hero_subtitle {
+  max-width: 760px;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 12px;
+  color: var(--secondary-text-color);
+}
+
+.hero_description {
+  max-width: 620px;
+  color: var(--secondary-text-color);
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+}
+
+.hero_actions {
+  display: flex;
+  gap: 24px;
+}
