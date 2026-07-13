@@ -11,7 +11,7 @@ export default function Hero() {
           <p className={styles.hero_tag}>Software Engineer</p>
 
           <h1 className={styles.hero_title}>
-            Hi, I'm
+            {'Hi, I'm'}
             <span> Sahil Mazumder</span>
           </h1>
 

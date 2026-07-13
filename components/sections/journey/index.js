@@ -34,11 +34,9 @@ export default function Journey() {
             </p>
 
             <p>
-              What excites me most about software engineering is solving
-              real-world problems through thoughtful design, clean architecture
-              and continuous learning. I'm always looking for opportunities to
-              improve my craft and build software that creates meaningful
-              impact.
+              {
+                "What excites me most about software engineering is solving real-world problems through thoughtful design, clean architecture and continuous learning. I'm always looking for opportunities to improve my craft and build software that creates meaningful impact."
+              }
             </p>
           </div>
 
