@@ -18,6 +18,6 @@ export const HERO = {
 
   secondary_cta: {
     label: "Let's Connect",
-    href: "#contact",
+    href: "https://mailto:sahilmazumder.nits@gmail.com",
   },
 };

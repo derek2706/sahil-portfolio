@@ -36,13 +36,21 @@ export default function Hero() {
           </div>
 
           <div className={styles.hero_image}>
+            <div className={styles.hero_glow} />
+
+            <div className={styles.hero_ring} />
+
+            <div className={styles.hero_pattern} />
+
             <div className={styles.image_wrapper}>
               <Image
-                src="/images/profile.png"
+                src="/images/profile4.png"
                 alt="Sahil Mazumder"
-                width={480}
-                height={600}
+                width={560}
+                height={1000}
+                objectFit="contain"
                 priority
+                className={styles.image}
               />
             </div>
           </div>

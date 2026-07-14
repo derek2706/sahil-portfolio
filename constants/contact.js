@@ -8,7 +8,7 @@ export const CONTACT = {
 
   primary_action: {
     label: "Email Me",
-    href: "mailto:sahilmazumder.nits@gmail.com",
+    href: "https://mailto:sahilmazumder.nits@gmail.com",
   },
 
   secondary_actions: [
