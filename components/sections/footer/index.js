@@ -25,12 +25,13 @@ export default function Footer() {
               <FaLinkedin size={18} />
             </Link>
 
-            <a
-              href="https://mailto:sahilmazumder.nts@gmail.com"
+            <Link
+              href="https://mailto:sahilmazumder.nits@gmail.com"
               aria-label="Email"
+              target="_blank"
             >
               <Mail size={18} />
-            </a>
+            </Link>
           </div>
         </div>
 

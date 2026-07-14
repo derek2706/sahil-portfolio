@@ -29,7 +29,11 @@ export default function Hero() {
                 {HERO.primary_cta.label}
               </Button>
 
-              <Button variant="secondary" href={HERO.secondary_cta.href}>
+              <Button
+                variant="secondary"
+                href={HERO.secondary_cta.href}
+                target="_blank"
+              >
                 {HERO.secondary_cta.label}
               </Button>
             </div>
